@@ -1,0 +1,89 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Orange/den/main/schemas/den.theme.v1.json",
+  "schema": "den.theme/v1",
+  "id": "phosphor",
+  "name": "Phosphor",
+  "version": "1.0.0",
+  "description": "High-contrast terminal: true black or bright white, amber accent, square corners, monospace throughout, compact.",
+  "author": "Monster Orange",
+  "license": "MIT",
+  "homepage": "https://github.com/Monster-Orange/den-themes/tree/main/themes/phosphor",
+  "default_mode": "dark",
+  "type": {
+    "sans": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+    "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+    "display": "\"JetBrains Mono\", ui-monospace, monospace",
+    "ja": "\"Osaka-Mono\", \"MS Gothic\", \"Noto Sans Mono CJK JP\", monospace"
+  },
+  "shape": {
+    "radius": "0",
+    "radius-button": "0",
+    "density": "compact"
+  },
+  "mark": {
+    "svg": "mark.svg",
+    "shape": "square"
+  },
+  "fonts": [
+    {
+      "family": "JetBrains Mono",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "path": "fonts/jetbrains-mono/jetbrains-mono-latin-400-normal.woff2",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "path": "fonts/jetbrains-mono/jetbrains-mono-latin-700-normal.woff2",
+          "weight": "700",
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "modes": {
+    "light": {
+      "bg": "#ffffff",
+      "surface": "#ffffff",
+      "raised": "#ffffff",
+      "sunken": "#f0f0f0",
+      "text": "#000000",
+      "muted": "#333333",
+      "faint": "#6b6b6b",
+      "border": "#000000",
+      "border-strong": "#000000",
+      "accent": "#a14f00",
+      "accent-text": "#8a4300",
+      "accent-fill": "#000000",
+      "on-accent": "#ffb000",
+      "ok": "#006b1f",
+      "warn": "#7a4a00",
+      "bad": "#b00000",
+      "remote": "#00578a",
+      "shadow": "4px 4px 0 #000000",
+      "bar": "#ffb000"
+    },
+    "dark": {
+      "bg": "#000000",
+      "surface": "#0a0a0a",
+      "raised": "#141414",
+      "sunken": "#000000",
+      "text": "#f2f2f2",
+      "muted": "#c8c8c8",
+      "faint": "#8a8a8a",
+      "border": "#3a3a3a",
+      "border-strong": "#9a9a9a",
+      "accent": "#ffb000",
+      "accent-text": "#ffb000",
+      "accent-fill": "#ffb000",
+      "on-accent": "#000000",
+      "ok": "#4ee36a",
+      "warn": "#ffd24a",
+      "bad": "#ff5c5c",
+      "remote": "#5cc8ff",
+      "shadow": "4px 4px 0 #ffb000",
+      "bar": "#ffb000"
+    }
+  }
+}

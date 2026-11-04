@@ -1,0 +1,89 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Orange/den/main/schemas/den.theme.v1.json",
+  "schema": "den.theme/v1",
+  "id": "atlas",
+  "name": "Atlas",
+  "version": "1.0.0",
+  "description": "Steady and navigational: deep chart navy or pale chart paper, a sea-green heading, Atkinson Hyperlegible.",
+  "author": "Monster Orange",
+  "license": "MIT",
+  "homepage": "https://github.com/Monster-Orange/den-themes/tree/main/themes/atlas",
+  "default_mode": "dark",
+  "type": {
+    "sans": "\"Atkinson Hyperlegible\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+    "display": "\"Atkinson Hyperlegible\", -apple-system, sans-serif",
+    "ja": "\"Hiragino Sans\", \"Noto Sans JP\", \"Yu Gothic\", sans-serif"
+  },
+  "shape": {
+    "radius": "10px",
+    "radius-button": "8px",
+    "density": "comfortable"
+  },
+  "mark": {
+    "svg": "mark.svg",
+    "shape": "circle"
+  },
+  "fonts": [
+    {
+      "family": "Atkinson Hyperlegible",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "path": "fonts/atkinson-hyperlegible/atkinson-hyperlegible-latin-400-normal.woff2",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "path": "fonts/atkinson-hyperlegible/atkinson-hyperlegible-latin-700-normal.woff2",
+          "weight": "700",
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "modes": {
+    "light": {
+      "bg": "#f2f5f7",
+      "surface": "#ffffff",
+      "raised": "#ffffff",
+      "sunken": "#e6ecf0",
+      "text": "#14202c",
+      "muted": "#4a5868",
+      "faint": "#5f6b78",
+      "border": "#d3dce4",
+      "border-strong": "#76899c",
+      "accent": "#1f8a5c",
+      "accent-text": "#18744d",
+      "accent-fill": "#18744d",
+      "on-accent": "#ffffff",
+      "ok": "#2c7932",
+      "warn": "#985c00",
+      "bad": "#c0392b",
+      "remote": "#2463a8",
+      "shadow": "0 8px 24px rgb(20 32 44 / 0.14)",
+      "bar": "linear-gradient(90deg, #1f8a5c 0%, #2463a8 100%)"
+    },
+    "dark": {
+      "bg": "#0f1823",
+      "surface": "#15202d",
+      "raised": "#1c2a3a",
+      "sunken": "#0b131c",
+      "text": "#e5ebf1",
+      "muted": "#a3b1c0",
+      "faint": "#8191a4",
+      "border": "#283748",
+      "border-strong": "#5c7490",
+      "accent": "#4cc38a",
+      "accent-text": "#5fd09a",
+      "accent-fill": "#4cc38a",
+      "on-accent": "#0f1823",
+      "ok": "#6fcf73",
+      "warn": "#e8b04a",
+      "bad": "#f07a6c",
+      "remote": "#6ea8f0",
+      "shadow": "0 12px 30px rgb(0 0 0 / 0.5)",
+      "bar": "linear-gradient(90deg, #4cc38a 0%, #6ea8f0 100%)"
+    }
+  }
+}

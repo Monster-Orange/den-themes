@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Clay">
+  <rect width="32" height="32" rx="8" fill="#b0543a"/>
+  <path d="M12 7h8v2.5c0 1.2 4.5 3.5 4.5 9.5 0 4.7-3.8 7-8.5 7s-8.5-2.3-8.5-7c0-6 4.5-8.3 4.5-9.5z" fill="#fdfcf8"/>
+  <path d="M9.6 17.5h12.8" stroke="#b0543a" stroke-width="1.5"/>
+</svg>

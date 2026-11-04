@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Orange/den/main/schemas/den.theme.v1.json",
+  "schema": "den.theme/v1",
+  "id": "graphite",
+  "name": "Graphite",
+  "version": "1.0.0",
+  "description": "An homage to OpenAI's ChatGPT interface: near-monochrome black and white, soft grays, rounded pill controls.",
+  "author": "Monster Orange",
+  "license": "MIT",
+  "homepage": "https://github.com/Monster-Orange/den-themes/tree/main/themes/graphite",
+  "default_mode": "light",
+  "type": {
+    "sans": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, \"SF Mono\", Menlo, Consolas, monospace",
+    "ja": "\"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Noto Sans JP\", \"Yu Gothic\", Meiryo, sans-serif"
+  },
+  "shape": {
+    "radius": "16px",
+    "radius-button": "20px",
+    "density": "comfortable"
+  },
+  "mark": {
+    "svg": "mark.svg",
+    "shape": "circle"
+  },
+  "modes": {
+    "light": {
+      "bg": "#ffffff",
+      "surface": "#ffffff",
+      "raised": "#ffffff",
+      "sunken": "#f3f3f3",
+      "text": "#0d0d0d",
+      "muted": "#5d5d5d",
+      "faint": "#6f6f6f",
+      "border": "#e6e6e6",
+      "border-strong": "#8c8c8c",
+      "accent": "#0d0d0d",
+      "accent-text": "#0d0d0d",
+      "accent-fill": "#0d0d0d",
+      "on-accent": "#ffffff",
+      "ok": "#1f7a45",
+      "warn": "#8a5a00",
+      "bad": "#c4281c",
+      "remote": "#2a64a8",
+      "shadow": "0 4px 16px rgb(0 0 0 / 0.08)",
+      "bar": "none"
+    },
+    "dark": {
+      "bg": "#212121",
+      "surface": "#181818",
+      "raised": "#2f2f2f",
+      "sunken": "#141414",
+      "text": "#ececec",
+      "muted": "#b4b4b4",
+      "faint": "#969696",
+      "border": "#343434",
+      "border-strong": "#787878",
+      "accent": "#ececec",
+      "accent-text": "#ffffff",
+      "accent-fill": "#f2f2f2",
+      "on-accent": "#0d0d0d",
+      "ok": "#5cc98a",
+      "warn": "#e8b44a",
+      "bad": "#f47a6e",
+      "remote": "#7ab3f2",
+      "shadow": "0 8px 24px rgb(0 0 0 / 0.5)",
+      "bar": "none"
+    }
+  }
+}

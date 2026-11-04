@@ -1,0 +1,105 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Orange/den/main/schemas/den.theme.v1.json",
+  "schema": "den.theme/v1",
+  "id": "monster-orange",
+  "name": "Monster Orange",
+  "version": "1.0.0",
+  "description": "Warm whites and charcoal, an orange-to-red stripe, Rubik and Space Mono.",
+  "author": "Monster Orange",
+  "license": "MIT",
+  "homepage": "https://github.com/Monster-Orange/den-themes/tree/main/themes/monster-orange",
+  "default_mode": "dark",
+  "type": {
+    "sans": "Rubik, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "mono": "\"Space Mono\", ui-monospace, Menlo, monospace",
+    "display": "Rubik, sans-serif",
+    "ja": "\"Hiragino Sans\", \"Noto Sans JP\", \"Yu Gothic\", sans-serif"
+  },
+  "shape": {
+    "radius": "6px",
+    "radius-button": "0.2rem",
+    "density": "comfortable"
+  },
+  "mark": {
+    "svg": "mark.svg",
+    "shape": "circle"
+  },
+  "fonts": [
+    {
+      "family": "Rubik",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "path": "fonts/rubik/rubik-latin-400-normal.woff2",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "path": "fonts/rubik/rubik-latin-700-normal.woff2",
+          "weight": "700",
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "family": "Space Mono",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "path": "fonts/space-mono/space-mono-latin-400-normal.woff2",
+          "weight": "400",
+          "style": "normal"
+        },
+        {
+          "path": "fonts/space-mono/space-mono-latin-700-normal.woff2",
+          "weight": "700",
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "modes": {
+    "light": {
+      "bg": "#fffcfc",
+      "surface": "#ffffff",
+      "raised": "#ffffff",
+      "sunken": "#f4efee",
+      "text": "#18191b",
+      "muted": "#52555b",
+      "faint": "#696d73",
+      "border": "#e0dad7",
+      "border-strong": "#97867f",
+      "accent": "#e16500",
+      "accent-text": "#af0900",
+      "accent-fill": "#c23f00",
+      "on-accent": "#ffffff",
+      "ok": "#157a3c",
+      "warn": "#8a5a00",
+      "bad": "#af0900",
+      "remote": "#0e7280",
+      "shadow": "0 8px 28px rgb(31 35 40 / 0.14)",
+      "bar": "linear-gradient(90deg, #ff7300 0%, #af0900 100%)"
+    },
+    "dark": {
+      "bg": "#18191b",
+      "surface": "#141517",
+      "raised": "#1f2023",
+      "sunken": "#111113",
+      "text": "#fffcfc",
+      "muted": "#c4c4c4",
+      "faint": "#8f8f8f",
+      "border": "#303236",
+      "border-strong": "#676a71",
+      "accent": "#ff7300",
+      "accent-text": "#ff8f33",
+      "accent-fill": "#ff7300",
+      "on-accent": "#18191b",
+      "ok": "#4cc777",
+      "warn": "#e3a72f",
+      "bad": "#ff5a4f",
+      "remote": "#4fd1db",
+      "shadow": "0 12px 30px rgb(0 0 0 / 0.5)",
+      "bar": "linear-gradient(90deg, #ff7300 0%, #af0900 100%)"
+    }
+  }
+}

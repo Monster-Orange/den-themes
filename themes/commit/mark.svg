@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Commit">
+  <rect width="32" height="32" rx="7" fill="#1f6feb"/>
+  <path d="M11 6v20M11 12c0 4 10 3 10 8v1" fill="none" stroke="#ffffff" stroke-width="2.25" stroke-linecap="round"/>
+  <circle cx="11" cy="12" r="3" fill="#1f6feb" stroke="#ffffff" stroke-width="2.25"/>
+  <circle cx="21" cy="23" r="3" fill="#ffffff"/>
+</svg>

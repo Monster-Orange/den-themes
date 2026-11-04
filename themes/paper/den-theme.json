@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Orange/den/main/schemas/den.theme.v1.json",
+  "schema": "den.theme/v1",
+  "id": "paper",
+  "name": "Paper",
+  "version": "1.0.0",
+  "description": "Calm paper and ink: warm off-white stock, near-black ink, an indigo accent, serif headings.",
+  "author": "Monster Orange",
+  "license": "MIT",
+  "homepage": "https://github.com/Monster-Orange/den-themes/tree/main/themes/paper",
+  "default_mode": "light",
+  "type": {
+    "sans": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+    "display": "ui-serif, \"Iowan Old Style\", \"Palatino Linotype\", Palatino, Georgia, serif",
+    "ja": "\"Hiragino Mincho ProN\", \"Yu Mincho\", \"Noto Serif JP\", serif"
+  },
+  "shape": {
+    "radius": "4px",
+    "radius-button": "4px",
+    "density": "comfortable"
+  },
+  "mark": {
+    "svg": "mark.svg",
+    "shape": "square"
+  },
+  "modes": {
+    "light": {
+      "bg": "#f4f1e9",
+      "surface": "#fbf9f4",
+      "raised": "#ffffff",
+      "sunken": "#ebe6da",
+      "text": "#23211d",
+      "muted": "#58534a",
+      "faint": "#6d675c",
+      "border": "#ddd6c7",
+      "border-strong": "#8e836d",
+      "accent": "#34508a",
+      "accent-text": "#2f4a80",
+      "accent-fill": "#2f4a80",
+      "on-accent": "#fbf9f4",
+      "ok": "#3a6b35",
+      "warn": "#875a12",
+      "bad": "#a3362a",
+      "remote": "#2b6670",
+      "shadow": "0 6px 20px rgb(60 50 30 / 0.12)",
+      "bar": "#2f4a80"
+    },
+    "dark": {
+      "bg": "#1b1a17",
+      "surface": "#22211d",
+      "raised": "#2a2924",
+      "sunken": "#161512",
+      "text": "#ece7dc",
+      "muted": "#b3ac9e",
+      "faint": "#958f83",
+      "border": "#38362f",
+      "border-strong": "#777163",
+      "accent": "#8ea6d8",
+      "accent-text": "#9fb4e0",
+      "accent-fill": "#9fb4e0",
+      "on-accent": "#1b1a17",
+      "ok": "#8fbf86",
+      "warn": "#d6a75a",
+      "bad": "#e58a7c",
+      "remote": "#7fb9c0",
+      "shadow": "0 10px 28px rgb(0 0 0 / 0.45)",
+      "bar": "#8ea6d8"
+    }
+  }
+}
