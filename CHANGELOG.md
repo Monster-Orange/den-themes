@@ -3,7 +3,16 @@
 Each theme is versioned on its own and tagged `<id>/v<version>`. This file
 records releases of every theme in the repo, newest first.
 
-## Unreleased
+## 2026-11-04: monster-orange 1.1.0, schema sync
+
+- `monster-orange` 1.1.0: light `accent-text` is burnt orange `#a34a00`
+  (5.2:1 or better on every light ground), not rust `#af0900`, which is also
+  `bad`. Links no longer read as errors in light mode. Dark is unchanged.
+- `schemas/den.theme.v1.json` synced with Den 0.3: a theme's and a font's
+  `license` share one rule, an SPDX expression; UNLICENSED, NONE and
+  NOASSERTION are refused. Every theme here already complies.
+
+## 2026-11-04: first set
 
 First set of themes, written against `den.theme/v1`.
 
