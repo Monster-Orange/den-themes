@@ -3,6 +3,13 @@
 Each theme is versioned on its own and tagged `<id>/v<version>`. This file
 records releases of every theme in the repo, newest first.
 
+## 2026-11-07: den 2.0.1, AA contrast in light mode
+
+- `den` 2.0.1: light `ok` `#27613b`, `warn` `#774c0e`, `bad` `#983124`,
+  `remote` `#205d6e` and `accent-text` `#415e1f` are darker, so a pill in
+  its own color on a tint of it is 4.5:1 or better on every light ground,
+  `sunken` included (they measured 3.7 to 4.4:1). Dark is unchanged.
+
 ## 2026-11-04: monster-orange 1.1.0, schema sync
 
 - `monster-orange` 1.1.0: light `accent-text` is burnt orange `#a34a00`
