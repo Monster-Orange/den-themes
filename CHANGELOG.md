@@ -10,6 +10,10 @@ records releases of every theme in the repo, newest first.
   its own color on a tint of it is 4.5:1 or better on every light ground,
   `sunken` included (they measured 3.7 to 4.4:1). Dark is unchanged.
 
+## 2026-11-15: monster-orange 1.1.1, solid Mikan mark
+
+- `monster-orange` 1.1.1: the mark and favicon are the solid Mikan mark (body filled; the orange and its leaves cut out), traced to a real vector, not the round-face outline (#1).
+
 ## 2026-11-04: monster-orange 1.1.0, schema sync
 
 - `monster-orange` 1.1.0: light `accent-text` is burnt orange `#a34a00`
