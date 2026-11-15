@@ -24,6 +24,7 @@
     "svg": "mark.svg",
     "shape": "circle"
   },
+  "favicon": "favicon.png",
   "fonts": [
     {
       "family": "Rubik",
